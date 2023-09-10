@@ -5,7 +5,7 @@ namespace SCP_Tesla.com.github.sekasin.scp_tesla {
     public class SCP_Tesla : Plugin<Config> {
         public override string Name => "SCP_Tesla";
         public override string Author => "TenDRILLL";
-        public override Version Version => new Version(1, 0, 0);
+        public override Version Version => new Version(1, 1, 0);
         public EventHandler EventHandler;
 
         public override void OnEnabled() {
